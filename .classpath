@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/log4j-api-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/gson-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/mysql-connector-java-5.1.37-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jstl-1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

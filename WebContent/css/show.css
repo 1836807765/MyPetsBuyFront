@@ -1,0 +1,244 @@
+/*内容*/
+.place {height: 50px;border-bottom: 1px solid #dddddd;font-size: 14px;line-height: 50px;margin-top: 10px;}
+.place .check {color: #999999;font-size: 14px;}
+
+/*商品属性*/
+.property {margin-top: 20px;margin-bottom: 20px;}
+.property .left {width: 400px;height: 100%;float: left}
+.property .left .left_top {height: 370px;border: 1px solid #eeeeee;text-align: center;width: 400px;position: relative}
+.property .left .left_top img {width: 400px;}
+.property .left .left_top .search {width: 25px;height: 20px;display: block;background: url(../image/search.png) no-repeat;position: absolute;bottom: 5px;right: 5px;}
+
+.property .left .pics {margin-top: 10px;height: 68px;}
+/*.property .left .pics .jump {width: 35px;height: 65px;border: 1px solid #eeeeee;display: block;line-height: 65px;text-align: center;font-size: 30px;color:#888888;text-decoration: none;float: left; }*/
+/*.property .left .pics .pic {width: 305px;float: left;height: 100%;margin: 0 10px;overflow: hidden}*/
+/*.property .left .pics .pic a {width: 65px;height: 65px;display: block;float: left;margin-right: 10px;border: 1px solid #eeeeee}*/
+/*.property .left .pics .pic a img {width: 65px;height: 65px;}*/
+/*.property .left .pics .pic .current {border: 1px solid #d22147}*/
+
+
+.property .right {margin-left: 30px;float: left;}
+.property .right .title {font-size: 16px;font-weight: bold;}
+
+.property .right .aa {height: 48px;border: 1px dashed #d7d7d7;background: #f3f3f3;margin-top: 15px;line-height: 48px;font-size: 14px;}
+.property .right .aa .a {font-size: 14px;margin: 0 40px 0 20px}
+.property .right .aa .b {font-size: 22px;color: #ff5500;font-weight: bold;}
+.property .right .aa .c {padding: 2px 5px;background: #ff9900;color: #ffffff}
+.property .right .aa .d {color: #999999;margin-left: 10px;}
+
+.property .right table {width: 100%;margin-top: 20px;}
+.property .right table tr {height: 40px;}
+.property .right table tr td {font-size: 14px;color: #666666;}
+.property .right table tr .one {width: 15%;padding-left: 10px;}
+.property .right table tr td .change {float: left;border: 1px solid #888888;margin-right: 20px;}
+.property .right table tr td .change span {width: 25px;height: 23px;display: block;float: left;font-size: 30px;text-align: center;line-height: 20px;cursor: pointer}
+.property .right table tr td .change input {float: left;width: 50px;height: 21px;border: none;text-align: center;}
+.property .right table tr td .change .zuo {border-right: 1px solid #888888}
+.property .right table tr td .change .you {border-left: 1px solid #888888}
+.property .right table tr td .tishi {display: block;float: left;margin-top: 2px;font-size: 14px;}
+
+
+.property .right .shopping {margin: 30px 0 20px 0;}
+.property .right .shopping a {width: 156px;height: 46px;display: block;font-size: 20px;font-weight: bold;line-height: 46px;text-align: center;float: left;}
+.property .right .shopping .buy {border: 2px solid #ff9900;color: #ff9900;background: #ffeced;margin-right: 20px;}
+.property .right .shopping .shop_car {background: #ff9900;color: #ffffff;border: 2px solid #ff9900;padding-left: 20px;background-image: url(../image/gouwu.png);background-repeat: no-repeat;background-position: 10% 50%;}
+
+
+.property .right .b_baozhang {height: 96px;padding: 10px 0;border: 1px solid #eeeeee;background: #f9f9f9}
+.property .right .b_baozhang ul li {float: left;text-align: center;width: 140px;height: 96px;border-right: 1px dashed #999999;}
+.property .right .b_baozhang ul li:last-child {border-right: none;}
+.property .right .b_baozhang ul li img {margin-top: 10px;}
+.property .right .b_baozhang ul li p {font-size: 14px;margin-top: 5px;}
+
+/*下半部分*/
+.details {margin-top: 20px;}
+/*左边*/
+.details_left {width: 873px;float: left;}
+.details_left .d_l_t {border: 1px solid #eeeeee}
+.details_left .d_l_t .d_l_t_t {height: 50px;background: #f8f8f8;border-bottom: 1px solid #dddddd}
+.details_left .d_l_t .d_l_t_t a {font-size: 20px;float: left;padding: 0 20px;border-right: 1px solid #eeeeee;height: 50px;line-height: 50px;color: #666666;text-decoration: none;}
+.details_left .d_l_t .d_l_t_t .current {background: #ffffff;border-top: 2px solid #ff5500;height: 48px;}
+.details_left .d_l_t .d_l_t_d {height: auto;text-align: center;padding-top: 20px;}
+
+/*评价*/
+.details_left .pingjia {margin-top: 30px;}
+.details_left .pingjia .pingjia_t {height: 40px;line-height: 40px;color: #888888}
+.details_left .pingjia .pingjia_t span {font-size: 20px;color: #ff5500;font-weight: bold;margin-right: 20px;}
+.details_left .pingjia .pingjia_d {border: 1px solid #eeeeee;margin-top: 10px;padding-bottom: 20px;}
+.details_left .pingjia .pingjia_d .pingjia_d_t {height: 20px;background: #f8f8f8;padding: 15px 0;border-bottom: 1px solid #eeeeee}
+.details_left .pingjia .pingjia_d .pingjia_d_t span {font-size: 14px;margin-left: 20px;position: relative;padding-left: 20px;cursor: pointer;}
+.details_left .pingjia .pingjia_d .pingjia_d_t span img {position: absolute;left: 0;}
+.details_left .pingjia .pingjia_d .pingjia_d_t .current {color: #ff5500;font-weight: bold;}
+
+/*留言*/
+.details_left .pingjia .pingjia_d .pingjia_d_l {padding-left: 18px;padding-bottom: 20px;}
+.details_left .pingjia .pingjia_d .pingjia_d_l ul li {padding: 20px 0 30px 0;width: 850px;border-bottom: 1px dashed #888888}
+.details_left .pingjia .pingjia_d .pingjia_d_l ul li .title {height: 20px;line-height: 20px;color: #888888}
+.details_left .pingjia .pingjia_d .pingjia_d_l ul li .title span {font-size: 16px;color: #000000;margin-right: 20px;}
+.details_left .pingjia .pingjia_d .pingjia_d_l ul li .pic {height: 100px;margin:20px 0 10px 0;}
+.details_left .pingjia .pingjia_d .pingjia_d_l ul li .mess {color: #888888}
+.details_left .pingjia .pingjia_d .pingjia_d_l ul li .admin {margin-top: 20px;color: red}
+
+/*常见问题*/
+.details_left .problem {margin-top: 40px;margin-bottom: 50px;}
+.details_left .problem h1 {color: #ff5500;font-size: 16px;margin-bottom: 20px;}
+.details_left .problem .problem_c {padding: 15px 30px 20px 30px;border: 1px solid #eeeeee;}
+.details_left .problem .problem_c .problem_c_t {border-bottom: 1px dashed #bbbbbb;padding-bottom: 10px;}
+.details_left .problem .problem_c .problem_c_t .title {margin-bottom: 10px;}
+.details_left .problem .problem_c .problem_c_t .title font {font-size: 15px;font-weight: bold;float: left;width: 780px;}
+.details_left .problem .problem_c .problem_c_t .title span {background: #ff9900;color: #ffffff;width: 20px;height: 20px;display: block;line-height: 20px;text-align: center;border-radius: 20px;float: left;margin-right: 5px;}
+
+.details_left .problem .problem_c .problem_c_t .answer {margin-bottom: 20px;}
+.details_left .problem .problem_c .problem_c_t .answer font {font-size: 15px;float: left;width: 780px;color: #888888}
+.details_left .problem .problem_c .problem_c_t .answer span {background: #bbbbbb;color: #ffffff;width: 20px;height: 20px;display: block;line-height: 20px;text-align: center;border-radius: 20px;float: left;margin-right: 5px;}
+
+.details_left .problem .problem_c p {margin-top: 20px;font-size: 15px;font-weight: bold;}
+
+
+
+
+
+/*分页*/
+.page {text-align: center;height: 40px;line-height: 40px;}
+.page a {padding: 5px 10px;border: 1px solid #dddddd;background: #ffffff;text-decoration: none;margin-right: 5px;}
+.page a:hover {color: #ffffff;background: #fe5500;border: 1px solid #fe5500;}
+
+
+
+/*图片查看大图*/
+
+div.zoomDiv{z-index:999;position:absolute;top:100px;left:100px;width:200px;height:200px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+div.zoomMask{position:absolute;background:url("../image/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}
+
+
+/*轮播图*/
+#scroll {height: 400px;width: 320px;position: relative;margin-left: 45px;}
+
+#scroll .item {width: 65px;height: 65px;display: block;float: left;margin-right: 10px;border: 1px solid #eeeeee;}
+#scroll .item img {width: 65px;height: 65px;}
+#scroll .current {border: 1px solid #d22147;}
+
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* display none until init */
+.owl-carousel{
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+    float: left;
+}
+/*.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+    cursor: pointer;
+}*/
+.owl-controls {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div{width: 35px;height: 65px;border: 1px solid #eeeeee;display: block;line-height: 65px;text-align: center;font-size: 30px;color:#888888;text-decoration: none;position: absolute;top: 0;}
+.owl-theme .owl-controls .owl-buttons .owl-prev{left: -45px;}
+.owl-theme .owl-controls .owl-buttons .owl-next{right:-35px;}
+.owl-theme .owl-controls .owl-buttons .owl-prev:before{content:"<";}
+.owl-theme .owl-controls .owl-buttons .owl-next:before{content:">";}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*右边*/
+.details_right {width: 188px;border: 1px solid #eeeeee;float: right}
+.details_right .d_r_t {height: 50px;background: #f8f8f8;border-bottom: 1px solid #dddddd;font-size: 20px;color: red;text-align: center;line-height: 50px;}
+.details_right .d_r_d {padding: 0 17px 10px 17px;width: 154px;}
+.details_right .d_r_d ul li {padding: 20px 0;border-bottom: 1px dashed #dddddd}
+.details_right .d_r_d ul li img {width: 150px;height:150px;border: 1px solid #eeeeee}
+.details_right .d_r_d ul li p {margin-top: 5px;color: #777777;}
+.details_right .d_r_d ul li p a {color: #777777;}
+.details_right .d_r_d ul li p span {color: #ff5500;margin-right: 10px;}
+.details_right .d_r_d ul li p span font {font-size: 16px;font-weight: bold}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
